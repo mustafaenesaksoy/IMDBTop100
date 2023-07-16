@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6A3A3"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/movieImage"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_background"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/movieName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie name"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/grey"
+                android:layout_marginTop="40dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/movieRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie rating"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/grey"
+                android:layout_marginTop="40dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/movieYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie year"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/grey"
+                android:layout_marginTop="40dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/movieDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie Description"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/grey"
+                android:layout_marginTop="40dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/movieGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie genre"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/grey"
+                android:layout_marginTop="40dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/movieDirector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie Director"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/grey"
+                android:layout_marginTop="40dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/movieWriters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movie writers"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/grey"
+                android:layout_marginTop="40dp">
+            </TextView>
+
+            <Button
+                android:id="@+id/trailerButton"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="TRAILER"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn_background">
+
+            </Button>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
